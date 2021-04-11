@@ -10,5 +10,5 @@ for input_file in input_files:
     imgplot = plt.imshow(img)
     plt.axis('off')
     output_loc = os.path.join("./output",input_file.split('.')[0]+".svg")
-    plt.savefig(output_loc, format="svg")
-    plt.clf()
+    plt.savefig(output_loc, format="svg", transparent=True)
+    plt.close()
