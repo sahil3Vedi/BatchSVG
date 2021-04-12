@@ -1,5 +1,5 @@
 # batchSVG
-Converts Bitmap images to SVG using matplotlib. Works best with PNG Images. Its hilarious how easy this turned out to be.
+Converts Bitmap images to SVG using matplotlib. Still needs some tweaking because maplotlib has a default plot size for all images.
 
 Clone the repo and empty the input and output folders. Add PNG/JPG images to the input folder. Ensure there aren't multiple dots "." in the filenames.
 
